@@ -1,0 +1,13 @@
+docker -v
+docker run hello-world
+docker run busybox ping google.com
+docker stop 7755dfadd244
+docker rm a3af310a176a
+docker images
+docker rm images a3af310a176a
+docker system df
+docker -d -p 7800:80 nginx
+docker -p 80:80
+docker ls
+docker info
+dokcer df
